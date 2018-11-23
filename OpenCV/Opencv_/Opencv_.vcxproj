@@ -153,7 +153,16 @@
     </ClCompile>
     <ClCompile Include="step3.cpp" />
     <ClCompile Include="step3_1.cpp" />
-    <ClCompile Include="step4.cpp" />
+    <ClCompile Include="step4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="step5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="step5_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="step5_1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
