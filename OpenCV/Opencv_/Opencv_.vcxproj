@@ -153,6 +153,7 @@
     </ClCompile>
     <ClCompile Include="step3.cpp" />
     <ClCompile Include="step3_1.cpp" />
+    <ClCompile Include="step4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
